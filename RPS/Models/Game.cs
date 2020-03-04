@@ -1,4 +1,5 @@
 using System;
+using Game.Views;
 
 namespace Game.Models
 {
@@ -10,6 +11,10 @@ namespace Game.Models
       switch (input)
       {
         case "nuke":
+          Show.ShowNuke();
+          break;
+        case "MrSpock":
+          Show.ShowSpock();
           break;
         default:
           break;
